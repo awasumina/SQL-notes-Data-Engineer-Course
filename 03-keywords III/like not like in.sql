@@ -106,7 +106,7 @@ SELECT name
 FROM people
 -- Select the names that have r as the second letter
 where name like '_r%'
-
+ 
 
 SELECT name
 FROM people
