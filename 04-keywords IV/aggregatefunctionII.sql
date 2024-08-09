@@ -100,4 +100,4 @@ where release_year=1994
 -- Calculate the highest gross film released between 2000-2012
 select max(gross) as highest_gross
 from films
-where release_year between 2000 and 2012
+where release_year between 2000 and 2012 

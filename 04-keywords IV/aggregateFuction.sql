@@ -92,7 +92,7 @@ from films
 -- Find the latest release_year
 select max(release_year) as latest_year
 from films
-
+ 
 
 -- Find the duration of the shortest film
 select min(duration) as shortest_film
