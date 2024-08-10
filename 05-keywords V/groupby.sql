@@ -2,7 +2,7 @@
 select release_year, count(*) as film_count
 from films
 group by release_year
-
+ 
 
 -- Find the release_year and average duration of films for each year
 select release_year, avg(duration) as avg_duration

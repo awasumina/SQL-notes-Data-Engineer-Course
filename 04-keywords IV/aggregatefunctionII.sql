@@ -29,7 +29,7 @@ INSERT INTO films (title, release_year, country, duration, language, certificati
 ('Gone with the Wind', 1939, 'USA', 226, 'English', 'G', 198655278, 3977000),
 ('Mr. Smith Goes to Washington', 1939, 'USA', 120, 'English', 'Not Rated', NULL, 1500000),
 ('The Wizard of Oz', 1939, 'USA', 102, 'English', 'Passed', 22202612, 2800000),
-('Boom Town', 1940, 'USA', 119, 'English', 'Passed', NULL, 1614000),
+('Boom Town', 1940, 'USA', 119, 'English', 'Passed', NULL, 1614000), 
 ('Fantasia', 1940, 'USA', 120, 'English', 'G', 76400000, 2280000),
 ('Pinocchio', 1940, 'USA', 88, 'English', 'Approved', 84300000, 2600000),
 ('Rebecca', 1940, 'USA', 130, 'English', 'Not Rated', NULL, 1288000),

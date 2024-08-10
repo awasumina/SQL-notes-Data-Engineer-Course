@@ -8,8 +8,6 @@ having count(distinct certification)>10
 
 
 
-
-
 -- Select the country and average_budget from films
 select country, round(avg(budget),2) as average_budget from films
 -- Group by country
