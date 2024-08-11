@@ -119,8 +119,6 @@ INSERT INTO films (title, release_year, country, duration, language, certificati
 ('Solomon and Sheba', 1959, 'USA', 141, 'English', NULL, NULL, 5000000),
 ('Some Like It Hot', 1959, 'USA', 120, 'English', 'Not Rated', 25000000, 2883848);
 
-
-
 -- Calculate the average budget rounded to the thousands
 select round(avg(budget),-3) as avg_budget_thousands
 from films
