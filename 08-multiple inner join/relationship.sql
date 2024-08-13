@@ -13,8 +13,6 @@ using (code);
 
 
 
-
-
 -- Rearrange the SELECT statement so that the language column appears on the left and the country column on the right.
 -- Sort the results by language.
 -- Select language and country names, aliased
