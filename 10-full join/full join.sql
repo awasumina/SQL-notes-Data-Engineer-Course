@@ -8,8 +8,7 @@ USING (code)
 -- Where region is North America or name is null
 WHERE region='North America' or name is Null
 ORDER BY region;
-
-
+  
 
 
 -- Repeat the same query as before, turning your full join into a left join with the currencies table.
