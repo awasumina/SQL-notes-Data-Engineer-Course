@@ -7,7 +7,7 @@ using(code)
 WHERE c.code IN ('PAK','IND')
 	AND l.code in ('PAK','IND');
 
-
+ 
 
 
 
