@@ -1,0 +1,45 @@
+-- Complete the code to perform an INNER JOIN of countries AS c with languages AS l using the code field to obtain the languages currently spoken in the two countries.
+SELECT c.name AS country, l.name AS language
+-- Inner join countries as c with languages as l on code
+from countries as c
+inner join languages as l
+using(code)
+WHERE c.code IN ('PAK','IND')
+	AND l.code in ('PAK','IND');
+
+
+
+
+
+-- Change your INNER JOIN to a different kind of join to look at possible combinations of languages that could have been spoken in the two countries given their history.
+-- Observe the differences in output for both joins.
+SELECT c.name AS country, l.name AS language
+FROM countries AS c        
+-- Perform a cross join to languages (alias as l)
+cross join languages as l
+WHERE c.code in ('PAK','IND')
+	AND l.code in ('PAK','IND');
+
+
+
+
+
+
+-- Complete the join of countries AS c with populations as p.
+-- Filter on the year 2010.
+-- Sort your results by life expectancy in ascending order.
+-- Limit the result to five countries.
+SELECT 
+	c.name AS country,
+    region,
+    life_expectancy AS life_exp
+FROM countries AS c
+-- Join to populations (alias as p) using an appropriate join
+inner join populations as p 
+ON c.code = p.country_code
+-- Filter for only results in the year 2010
+where year=2010
+-- Sort by life_exp
+order by life_exp
+-- Limit to five records
+limit 5;
