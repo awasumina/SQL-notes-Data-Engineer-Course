@@ -10,7 +10,7 @@ select * from economies2019
 ORDER BY code, year;
 
 
-
+ 
 
 
 -- Perform an appropriate set operation that determines all pairs of country code and year (in that order) from economies and populations, excluding duplicates.

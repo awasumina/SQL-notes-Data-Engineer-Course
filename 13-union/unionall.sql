@@ -5,4 +5,4 @@ FROM economies
 UNION All
 SELECT country_code, year
 FROM populations
-ORDER BY code, year;
+ORDER BY code, year; 
