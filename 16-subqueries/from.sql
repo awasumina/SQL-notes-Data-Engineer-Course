@@ -59,4 +59,4 @@ WHERE name IN
 	  AND metroarea_pop IS NOT NULL
 -- Sort and limit the result
 ORDER BY city_perc DESC
-LIMIT 10;
+LIMIT 10;   
