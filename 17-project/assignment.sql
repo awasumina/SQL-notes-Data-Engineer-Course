@@ -10,6 +10,7 @@
 select stay, COUNT(stay) as count_int, round(avg(todep),2) as average_phq, round(avg(tosc),2) as average_scs,round(avg(toas),2) as average_as 
 from students
 where Inter_dom='Inter'
-group by stay
+group by stay   
 order by stay desc
 limit 9;
+    
