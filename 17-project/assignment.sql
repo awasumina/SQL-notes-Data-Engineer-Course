@@ -5,7 +5,7 @@
 -- The average columns should contain the average of the todep (PHQ-9 test), tosc (SCS test), and toas (ASISS test) columns for each length of stay, rounded to two decimal places.
 -- The count_int column should be the number of international students for each length of stay.
 -- Sort the results by the length of stay in descending order.
-
+ 
 -- Start coding here...
 select stay, COUNT(stay) as count_int, round(avg(todep),2) as average_phq, round(avg(tosc),2) as average_scs,round(avg(toas),2) as average_as 
 from students
