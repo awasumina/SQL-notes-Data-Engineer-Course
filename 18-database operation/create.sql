@@ -3,7 +3,7 @@
 CREATE TABLE professors (
  firstname text,
  lastname text
-);
+);   
 
 -- Print the contents of this table
 SELECT * 
