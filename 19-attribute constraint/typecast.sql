@@ -4,11 +4,9 @@
 INSERT INTO transactions (transaction_date, amount, fee) 
 VALUES ('2018-09-24', 5454, '30');
 
--- Doublecheck the contents
+-- Doublecheck the contents   
 SELECT *
 FROM transactions;
-
-
 
 
 -- As it doesn't work, add an integer type cast at the right place and execute it again.
