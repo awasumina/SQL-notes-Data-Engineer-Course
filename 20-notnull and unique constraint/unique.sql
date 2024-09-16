@@ -7,3 +7,4 @@ ADD constraint  university_shortname_unq UNIQUE(university_shortname);
 -- Make organizations.organization unique
 alter table organizations
 add constraint organization_unq unique(organization)
+   
