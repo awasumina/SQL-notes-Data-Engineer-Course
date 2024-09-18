@@ -116,9 +116,6 @@ ORDER BY count DESC;
 
 
 
-
-
-
 -- Join all tables
 SELECT *
 FROM affiliations
