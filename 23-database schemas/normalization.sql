@@ -2,7 +2,7 @@
 -- Drop those non-key columns from customer_rentals.
 -- Create a new table to satisfy 2NF
 create table cars (
-  car_id VARCHAR(256) NULL,
+  car_id VARCHAR(256) NULL,  
   model VARCHAR(128),
   manufacturer VARCHAR(128),
   type_car VARCHAR(128),
