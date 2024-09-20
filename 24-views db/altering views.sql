@@ -7,7 +7,7 @@ CREATE VIEW top_artists_2017 AS
 SELECT artists.artist FROM artists
 INNER JOIN top_15_2017
 ON top_15_2017.reviewid = artists.reviewid;
-
+     
 -- Output the new view
 SELECT * FROM top_artists_2017;
 
