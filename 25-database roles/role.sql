@@ -18,7 +18,7 @@ grant update, insert ON  long_reviews TO data_scientist;
 alter role marta with password 's3cur3p@ssw0rd';
 
 
-
+ 
 
 
 -- Add Marta to the data scientist group
