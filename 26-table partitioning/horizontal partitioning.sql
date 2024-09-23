@@ -30,7 +30,7 @@ JOIN film_descriptions USING(film_id);
 CREATE TABLE film_partitioned (
   film_id INT,
   title TEXT NOT NULL,
-  release_year TEXT
+  release_year TEXT 
 )
 PARTITION BY LIST (release_year);
 
