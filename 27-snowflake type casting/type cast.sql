@@ -26,3 +26,4 @@ SELECT CAST(request_id AS VARCHAR) AS request_id_string,
 FROM uber_request_data
 -- Filter the records where request_date is greater than '2016-06-01' and drop_time is less than 6 AM.
 WHERE request_date>'2016-06-01' and drop_time< '06:00:00'
+   
