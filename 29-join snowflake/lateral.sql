@@ -7,7 +7,7 @@ SELECT pt.name,
 	   pt.category, 
        o.order_date,
        -- Get max quantity from lateral query
-       x.max_quantity
+       x.max_quantity 
 FROM pizzas AS pz
 JOIN pizza_type AS pt ON pz.pizza_type_id = pt.pizza_type_id
 JOIN order_details AS od ON pz.pizza_id = od.pizza_id
