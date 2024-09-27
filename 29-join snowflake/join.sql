@@ -2,7 +2,7 @@
 -- NATURAL JOIN the pizzas and pizza_type tables.
 -- GROUP the records by category from pt (pizza_type) table.
 -- ORDER the details by total_revenue in descending order and LIMIT to 1 to fetch only the top revenue pizza.
- 
+      
 SELECT 
     pt.category,
     SUM(p.price * od.quantity) AS total_revenue
