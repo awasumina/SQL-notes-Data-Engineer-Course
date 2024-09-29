@@ -7,7 +7,7 @@ SELECT
     pt.category,
     SUM(p.price * od.quantity) AS total_revenue
 FROM 
-    order_details AS od
+    order_details AS od  
     NATURAL JOIN pizzas AS p   
     NATURAL JOIN pizza_type AS pt
 GROUP BY 
