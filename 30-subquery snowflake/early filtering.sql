@@ -5,7 +5,6 @@
 
 
 
-
 WITH filtered_orders AS (
   -- Select order_id, order_date and filter records where order_date is greater than November 1, 2015.
   SELECT order_id, order_date 
