@@ -14,7 +14,7 @@ join pizzas AS pz
 join order_details AS od
     ON pz.pizza_id = od.pizza_id
 -- Group by name and category
-Group BY pt.name,pt.category
+Group BY pt.name,pt.category 
 HAVING SUM(od.quantity) < (
     -- Calculate AVG of total_quantity 
     SELECT avg(total_quantity)
