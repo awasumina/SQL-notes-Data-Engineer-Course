@@ -11,7 +11,7 @@ SELECT
   -- Select Saturday, Sunday from hours converting it to STRING
   ((hours->>'Saturday')::STRING IS NOT NULL OR (hours->>'Sunday')::STRING IS NOT NULL) AS open_on_weekend
 FROM
-  yelp_business_data;
+  yelp_business_data;  
 
 
 
